@@ -13,7 +13,7 @@ function optimizeFunction(func) {
   // SOLUTION:
     let cache = []
     let divisionNum
-    switch(fn.name){
+    switch(func.name){
         case "doExpensiveTask":
             divisionNum = 2;
             break
